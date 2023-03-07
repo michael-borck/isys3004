@@ -5,76 +5,67 @@
   <meta charset="UTF-8">
   <title>Web Design</title>
   <style>
-   body {
-      width: 700; /* arbitrary choice, could also do %, px */
-      margin: 0 auto; /* centers the element (the 'body') within the page */
-      padding: 0;
-      text-align: center;
-      font-family: Helvetica, sans-serif
-   }
-
    header {
       background-color: lightgray;
-   }
+    }
 
-   header h1 {
+    header h1 {
       height: 80px;
       line-height: 80px;
-   }
+    }
 
-   nav {
+    nav {
       background-color: darkgray;
       text-align: left;
-      padding: 10px
-
-   }
-
-   nav a {
-      color: white;
-      text-align: center;
-      padding: 10px 16px;
-      text-decoration: none;
-   }
-
-   nav a:hover {
-      background-color: lightgray;
-      color:black;
       padding: 10px;
-   }
+    }
 
-   #featured {
+    nav a {
+      color: white;  /* for consistency, make links the same */
+      text-align: center;
+      padding: 10px 16px; /* top-bottom padding must match <nav> */
+      text-decoration: none;
+    }
+
+    nav a:hover {
       background-color: lightgray;
-      float: left;
-      width: 200px
-   }
+      color: black;
+    }
 
-   #content {
+    #featured {
+      background: lightgray;
+      float: left;
+      width: 200px;
+    }
+
+    #content {
       float: right;
       width: 500px;
-   }
+    }
 
-   #extras {
-      background-color: lightgray;
+    #extras {
+      background: lightgray;
       float: left;
-      width: 200px
-   }
+      width: 200px;
+    }
 
-   #extras p {
+    #extras p {
       font-size: 50%;
       text-align: center;
       line-height: normal;
-   }
+    }
 
-   footer {
+    footer {
       clear: both;
       text-align: center;
       background-color: darkgray;
-   }
+    }
 
-   footer a {
+    footer a {
       color: white;
       text-decoration: none;
-   }
+    }
+
 
   </style>
 
